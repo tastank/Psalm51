@@ -1,0 +1,2 @@
+subf = \markup{ \italic{ sub \dynamic f } }
+subp = \markup{ \italic{ sub \dynamic p } }
