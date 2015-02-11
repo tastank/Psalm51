@@ -1,4 +1,4 @@
-cantor = \relative c'' {
+cantor = \relative c' {
     \partial 4 d4
     a'8 bes a4 f        |%1
     g4. g8 a8 bes       |%2
