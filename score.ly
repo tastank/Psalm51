@@ -13,7 +13,7 @@
 
 \include "cello.lyi"
 
-voiceInstr = "voice oohs"
+voiceInstr = "acoustic grand"
 
 \paper {
     ragged-last-bottom=##f
