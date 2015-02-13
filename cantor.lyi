@@ -7,4 +7,8 @@ cantor = \relative c' {
     g4. g8 e4 c         |%5
     d2.~                |%6
     d2 r4               |%7
+} \addlyrics {
+    \repeat unfold 2 {
+        Be mer -- ci -- ful, o \markup{\caps{Lord,}} for we have sinned
+    }
 }
