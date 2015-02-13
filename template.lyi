@@ -1,6 +1,6 @@
 template = {
     \tempo 4=76
-    \key d \minor
+    \key d \dorian
     \numericTimeSignature
     \time 3/4
     \partial 4 s4
