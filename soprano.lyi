@@ -1,2 +1,14 @@
-soprano = \relative c'' {
+soprano = \relative c' {
+    d4
+    a'8 b a4 f          |%1
+    g4. g8 a8 b         |%2
+    a4. r8 a4           |%3
+    d8 e f (e) d4       |%4
+    d4. d8 c4 e         |%5
+    d2.~                |%6
+    d2 r4               |%7
+} \addlyrics {
+    \repeat unfold 2 {
+        Be mer -- ci -- ful, o \markup{\caps{Lord,}} for we have sinned
+    }
 }
