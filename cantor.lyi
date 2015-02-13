@@ -1,14 +1,33 @@
 cantor = \relative c' {
-    d4
+    d4\f
     a'8 b a4 f          |%1
     g4. g8 a8 b         |%2
     a4. r8 a4           |%3
     d8 c b4 a           |%4
     g4. g8 e4 c         |%5
     d2.~                |%6
-    d2 r4               |%7
+    d2 f8 (g)           |%7
+
+    a8 a a4 b8 g        |%8
+    a2 f8 g             |%9
+    a8 (g) a2           |%10
+    d,8 [d] e [(f)] g [(a)] |%11
+    a8 (b) a4 g         |%12
+    f4 g e              |%13
+    d2.                 |%14
+    d8 [d] d [(e)] f [g]|%15
+    a8 b a4 f8 (g)      |%16
+    a8 b g4 (e)         |%17
+    f8 (e) d2~          |%18
+    d2 r4               |%19
 } \addlyrics {
     \repeat unfold 2 {
         Be mer -- ci -- ful, o \markup{\caps{Lord,}} for we have sinned
     }
+
+    Have mer -- cy on me, O God, in your good -- ness;
+    %in the great -- ness of your com -- pas -- sion wipe out my of -- fense.
+    In your great com -- pas -- sion wipe out my of -- fense.
+    Tho -- rough -- ly wash me from my guilt
+    and of my sin cleanse me.
 }
