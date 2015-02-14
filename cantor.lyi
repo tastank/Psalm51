@@ -47,7 +47,7 @@ cantor = \relative c' {
     g [(a)] a2~         |%39
     a2 a8 g             |%40
     f4 f f8 g~          |%41
-    g8 [g] a4 (b8) b    |%42
+    g8 [g] a4 b         |%42
     c2 c4               |%43
     d2 \times 2/3 {d4 c b}  |%44
     c2. b8 a            |%45
