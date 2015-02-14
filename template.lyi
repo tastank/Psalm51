@@ -1,4 +1,4 @@
-template = {
+refrain_template = {
     \tempo 4=76
     \key d \dorian
     \numericTimeSignature
@@ -9,7 +9,12 @@ template = {
     s1          |%5
     \time 3/4
     s2.*2       |%6-7
+    \break
     \bar "||"
+}
+
+long_template = {
+    \refrain_template
     s2.*11      |%8-18
     s2.*9       |%19-27
     s2.*4       |%28-31

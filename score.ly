@@ -26,7 +26,7 @@ voiceInstr = "acoustic grand"
             \set Staff.instrumentName = "Cantor"
             \set Staff.shortInstrumentName = "C"
             \set Staff.midiInstrument = \voiceInstr
-            \template
+            \long_template
             \new Voice <<
                 \cantor
             >>
@@ -37,7 +37,7 @@ voiceInstr = "acoustic grand"
                 \set Staff.instrumentName = "Soprano"
                 \set Staff.shortInstrumentName = "S"
                 \set Staff.midiInstrument = \voiceInstr
-                \template
+                \refrain_template
                 \new Voice <<
                     \soprano
                 >>
@@ -47,7 +47,7 @@ voiceInstr = "acoustic grand"
                 \set Staff.instrumentName = "Alto"
                 \set Staff.shortInstrumentName = "A"
                 \set Staff.midiInstrument = \voiceInstr
-                \template
+                \refrain_template
                 \new Voice <<
                     \alto
                 >>
@@ -58,7 +58,7 @@ voiceInstr = "acoustic grand"
                 \set Staff.shortInstrumentName = "T"
                 \set Staff.midiInstrument = \voiceInstr
                 \clef "treble_8"
-                \template
+                \refrain_template
                 \new Voice <<
                     \tenor
                 >>
@@ -69,7 +69,7 @@ voiceInstr = "acoustic grand"
                 \set Staff.shortInstrumentName = "B"
                 \set Staff.midiInstrument = \voiceInstr
                 \clef bass
-                \template
+                \refrain_template
                 \new Voice <<
                     \bass
                 >>
@@ -82,7 +82,7 @@ voiceInstr = "acoustic grand"
                 \set Staff.shortInstrumentName = "Vc"
                 \set Staff.midiInstrument = "cello"
                 \clef tenor
-                \template
+                \long_template
                 \new Voice <<
                     \cello
                 >>
