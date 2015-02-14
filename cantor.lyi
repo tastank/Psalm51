@@ -20,7 +20,7 @@ cantor = \relative c' {
     f8 (e) d2~          |%17
     d2 \bar "||" f8 (e) |%18
 
-    d4. d8 f [g]          |%19
+    d4. d8 f [g]        |%19
     a8 g a4 f8 g        |%20
     \stemUp
     a8 [b] c [(b)] a [g]|%21
@@ -30,10 +30,17 @@ cantor = \relative c' {
     a8 b a4 f8 g        |%24
     a8 b g4 e           |%25
     f8 e d2~            |%26
-    d2 r4               |%27
+    d2 \bar "||" f8 (e) |%27
+
+    d4 d8 [e] f [g]     |%28
+    a8 g a4 f8 g        |%29
+    a8 [b] c [(b)] a g  |%30
+    a8 [(f)] g8 [e] d2  |%31
+
+
 } \addlyrics {
     \repeat unfold 2 {
-        Be mer -- ci -- ful, o \markup{\caps{Lord,}} for we have sinned
+        Be mer -- ci -- ful, O \markup{\caps{Lord,}} for we have sinned
     }
 
     Have mer -- cy on me, O God, in your good -- ness;
@@ -46,4 +53,9 @@ cantor = \relative c' {
     and my sin is be -- fore me al -- ways.
     ''A -- gainst you on -- ly have I sinned
     and done what is e -- vil in your sight.''
+
+    A clean heart cre -- ate for me, O God,
+    and a stead -- fast spi -- rit re -- new with -- in me.
+    Cast me not out from your pre -- sence,
+    and your Ho -- ly Spi -- rit take not from me.
 }
