@@ -36,7 +36,19 @@ cantor = \relative c' {
     a8 g a4 f8 g        |%29
     a8 [b] c [(b)] a g  |%30
     a8 [(f)] g8 [e] d2  |%31
+    d8 [c] b [d] e [g]  |%32
+    a8 (g) a4 f8 g      |%33
+    a8 [b] a [(g)] a4~  |%34
+    a8 [a] g [e] d4~    |%35
+    d2 \bar "||" a'8 b  |%36
 
+    c4. d8 b [a] g [g]  |%37
+    g [(a)] a2~         |%38
+    a2 a8 g             |%39
+    f4 f f8 g~          |%40
+    g8 [g] a4 b8 b      |%41
+    c2 c4               |%42
+    d
 
 } \addlyrics {
     \repeat unfold 2 {
