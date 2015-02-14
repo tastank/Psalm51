@@ -1,2 +1,17 @@
 cello = \relative c {
+    d4
+    a'8 b a4 f      |%1
+    g4. g8 a b      |%2
+    a2 a4           |%3
+    d,8 e f g a b   |%4
+    a4. b8 c b a g  |%5
+    a8 e f c d4~    |%6
+    d2 f8 e         |%7
+
+    d4 d8 e f e     |%8
+    d8 a c f, a f   |%9
+    d8 e d a' d c   |%10
+    a8 b c b a g    |%11
+    a2 e'4          |%12
+    a4. f8 g e      |%13
 }
