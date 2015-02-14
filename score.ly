@@ -81,7 +81,7 @@ voiceInstr = "acoustic grand"
                 \set Staff.instrumentName = "Violoncello"
                 \set Staff.shortInstrumentName = "Vc"
                 \set Staff.midiInstrument = "cello"
-                \clef tenor
+                \clef bass
                 \long_template
                 \new Voice <<
                     \cello
