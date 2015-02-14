@@ -11,15 +11,14 @@ cantor = \relative c' {
     a8 a a4 b8 g        |%8
     a2 f8 g             |%9
     a8 (g) a2           |%10
-    d,8 [d] e [(f)] g [(a)] |%11
-    a8 (b) a4 g8 (f)    |%12
-    f8 (a) g4 e         |%13
-    d2.                 |%14
-    d8 [d] d [(e)] f [g]|%15
-    a8 b a4 f8 (g)      |%16
-    a8 b g4 (e)         |%17
-    f8 (e) d2~          |%18
-    d2 r4               |%19
+    d,8 [d] d [e] f [g] |%11
+    a8 b a8 (g) e4      |%12
+    d2.                 |%13
+    d8 [d] d [(e)] f [g]|%14
+    a8 b a4 f8 (g)      |%15
+    a8 b g4 (e)         |%16
+    f8 (e) d2~          |%17
+    d2 r4               |%18
 } \addlyrics {
     \repeat unfold 2 {
         Be mer -- ci -- ful, o \markup{\caps{Lord,}} for we have sinned
