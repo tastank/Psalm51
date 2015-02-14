@@ -12,8 +12,8 @@ cantor = \relative c' {
     a2 f8 g             |%9
     a8 (g) a2           |%10
     d,8 [d] e [(f)] g [(a)] |%11
-    a8 (b) a4 g         |%12
-    f4 g e              |%13
+    a8 (b) a4 g8 (f)    |%12
+    f8 (a) g4 e         |%13
     d2.                 |%14
     d8 [d] d [(e)] f [g]|%15
     a8 b a4 f8 (g)      |%16
