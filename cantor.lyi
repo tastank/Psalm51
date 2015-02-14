@@ -48,7 +48,11 @@ cantor = \relative c' {
     f4 f f8 g~          |%40
     g8 [g] a4 b8 b      |%41
     c2 c4               |%42
-    d
+    d2 \times 2/3 {d4 c b}  |%43
+    c2. b8 a            |%44
+    g4 g8 [g] f [e]     |%45
+    d2.~                |%46
+    d2 \bar "||" r4     |%47
 
 } \addlyrics {
     \repeat unfold 2 {
