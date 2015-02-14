@@ -10,7 +10,12 @@ template = {
     \time 3/4
     s2.*2       |%6-7
     \bar "||"
-    s2.*12      |%8-19
+    s2.*11      |%8-19
+    s2.*9
+    s2.*3
+    \time 4/4
+    s1
+    \time 3/4
 }
 
 scoreformat = {
