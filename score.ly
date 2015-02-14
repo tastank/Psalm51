@@ -27,7 +27,6 @@ voiceInstr = "acoustic grand"
             \set Staff.shortInstrumentName = "C"
             \set Staff.midiInstrument = \voiceInstr
             \template
-            \scoreformat
             \new Voice <<
                 \cantor
             >>
