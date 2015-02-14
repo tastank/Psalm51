@@ -18,7 +18,7 @@ cantor = \relative c' {
     a8 b a4 f8 (g)      |%15
     a8 b g4 (e)         |%16
     f8 (e) d2~          |%17
-    d2 \bar "||" f8 (e) |%18
+    d2 \bar "||"\break f8 (e) |%18
 
     d4. d8 f [g]        |%19
     a8 g a4 f8 g        |%20
@@ -30,7 +30,7 @@ cantor = \relative c' {
     a8 b a4 f8 g        |%24
     a8 b g4 e           |%25
     f8 e d2~            |%26
-    d2 \bar "||" f8 (e) |%27
+    d2 \bar "||"\break f8 (e) |%27
 
     d4 d8 [e] f [g]     |%28
     a8 b a2             |%29
@@ -40,20 +40,21 @@ cantor = \relative c' {
     d,8 [c] b~ b4 d8 e [g]  |%33
     a8 (g) a4 f8 g      |%34
     a8 [b] a [(b)] a4~  |%35
-    a8 [a] f [e] d4~    |%36
-    d2 \bar "||" a'8 b  |%37
+    a8 [a] f [e]        |%36
+    d2.~                |%37
+    d2 \bar "||"\break a'8 b  |%38
 
-    c4. d8 b [a] g [g]  |%38
-    g [(a)] a2~         |%39
-    a2 a8 g             |%40
-    f4 f f8 g~          |%41
-    g8 [g] a4 b         |%42
-    c2 c4               |%43
-    d2 \times 2/3 {d4 c b}  |%44
-    c2. b8 a            |%45
-    g4 g8 [g] f [e]     |%46
-    d2.~                |%47
-    d2 \bar "||" r4     |%48
+    c4. d8 b [a] g [g]  |%39
+    g [(a)] a2~         |%40
+    a2 a8 g             |%41
+    f4 f f8 g~          |%42
+    g8 [g] a4 b         |%43
+    c2 c4               |%44
+    d2 \times 2/3 {d4 c b}  |%45
+    c2. b8 a            |%46
+    g4 g8 [g] f [e]     |%47
+    d2.~                |%48
+    d2 \bar "||" r4     |%49
 
 } \addlyrics {
     \repeat unfold 2 {
