@@ -14,7 +14,8 @@ refrain_template = {
 
 long_template = {
     \refrain_template
-    s2.*11      |%8-18
+    s2.*10      |%8-17
+    s2 \bar "||"\break s4   |%18
     %/*sunglasses*/ That's right.
     \time 7/4
     \repeat unfold 4 {s2. s1}   |%19-22
