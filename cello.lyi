@@ -20,7 +20,14 @@ cello = \relative c {
     f8 g a e a, c   |%17
     d8 [a] d, [a']
 
-    f8 g            |%18
+    f'8 g           |%18
     a4 a8 g f e
     d8 c d a d, a' d8 a |%19
+    d8 e f e d c    
+    d8 a d, a' d e f e  |%20
+    d8 c b a g f
+    e4 d8 a' d c d e    |%21
+    f8 e d4 c
+    d8 c d a d, a' d e  |%22
+    d8 [a] d,4
 }
