@@ -18,19 +18,18 @@ cantor = \relative c' {
     a8 b a4 f8 (g)      |%15
     a8 b g4 (e)         |%16
     f8 (e) d2~          |%17
-    d2 \bar "||"\break f8 (e) |%18
+    d2 f8 (e)           |%18
 
-    d4. d8 f [g]        |%19
-    a8 g a4 f8 g        |%20
+    d4. d8 f [g] \bar ":" a8 g a2 f8 g        |%19
     \stemUp
-    a8 [b] c [(b)] a [g]|%21
+    a8 [b] c [(b)] a [g] \bar ":"
     \stemNeutral
-    a8 (g) a4. a8       |%22
-    d,4 d8 [(e)] f [g]  |%23
-    a8 b a4 f8 g        |%24
-    a8 b g4 e           |%25
-    f8 e d2~            |%26
-    d2 \bar "||"\break f8 (e) |%27
+    a8 (g) a4~ a4. a8       |%20
+    d,4 d8 [(e)] f [g]  \bar ":"
+    a8 b a2 f8 g        |%24
+    a8 b g4 e           \bar ":"
+    f8 e d2.~           |%26
+    d2 f8 (e)           |%27
 
     d4 d8 [e] f [g]     |%28
     a8 b a2             |%29
@@ -42,7 +41,7 @@ cantor = \relative c' {
     a8 [b] a [(b)] a4~  |%35
     a8 [a] f [e]        |%36
     d2.~                |%37
-    d2 \bar "||"\break a'8 b  |%38
+    d2 a'8 b            |%38
 
     c4. d8 b [a] g [g]  |%39
     g [(a)] a2~         |%40
@@ -54,7 +53,7 @@ cantor = \relative c' {
     c2. b8 a            |%46
     g4 g8 [g] f [e]     |%47
     d2.~                |%48
-    d2 \bar "||" r4     |%49
+    d2 r4               |%49
 
 } \addlyrics {
     \repeat unfold 2 {
