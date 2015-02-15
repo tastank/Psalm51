@@ -22,18 +22,17 @@ long_template = {
     \time 3/4
     s2 \bar "||"\break s4   |%23
     \time 7/4
-    s1*4        |%32-33
-    \time 3/4
-    s2.*2       |%34-35
-    \time 2/4
-    s2          |%36
-    \time 3/4
-    s2.*2       |%37-38
+    s2. s1      |%24
     \time 4/4
-    s1          |%39
+    s1          |%25
+    \time 5/4
+    s1 s4       |%26
+    \time 7/4
+    \repeat unfold 2 {s2. s1}   |%27-28
     \time 3/4
-    s2.*5       |%40-44
+    s2 \bar "||" s4 |%29
     \time 4/4
-    s1*2        |%45-46
+    s1*6        |%30-34
     \time 3/4
+    s2.*3       |%36-37
 }
