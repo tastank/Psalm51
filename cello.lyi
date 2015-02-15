@@ -30,4 +30,15 @@ cello = \relative c {
     f8 e d4 c
     d8 c d a d, a' d e  |%22
     d8 [a] d,4
+
+    f'8 g           |%23
+    a4 a8 g f e
+    d8 c d a d, a' d8 a |%24
+    d4 g8 fis g e a a,  |%25
+    d4. a8 d, a' d e f e|%25
+    d4 c8 b a g 
+    d8 a' d e d c d a   |%26
+    f8 e f g f d~
+    d8 e f g a b c e    |%27
+    d8 [a] d, [a']
 }
