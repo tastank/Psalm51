@@ -1,5 +1,5 @@
 alto = \relative c' {
-    d4\p
+    d4
     d8 d d4 f           |%1
     e4. e8 e e          |%2
     e4. r8 e4           |%3

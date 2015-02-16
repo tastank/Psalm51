@@ -1,5 +1,5 @@
 bass = \relative c {
-    d4\p
+    d4
     d8 e f4 f       |%1
     e4 e8 (d) c b   |%2
     a4 a2           |%3

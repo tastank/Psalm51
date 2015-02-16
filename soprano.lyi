@@ -1,5 +1,5 @@
 soprano = \relative c' {
-    d4\f
+    d4
     a'8 b a4 f          |%1
     g4. g8 a8 b         |%2
     a4. r8 a4           |%3
