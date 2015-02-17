@@ -9,7 +9,8 @@ refrain_template = {
     s1          |%5
     \time 3/4
     s2.         |%6
-    s2 \bar "||" \break s4  |%7
+    s2 s4       |%7
+    \bar "||"\break
 }
 
 long_template = {

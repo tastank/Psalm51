@@ -6,7 +6,7 @@ alto = \relative c' {
     d4 e f              |%4
     g4 a2 a4            |%5
     a2.~                |%6
-    a2
+    a2 r4               |%7
 } \addlyrics {
     Be mer -- ci -- ful, o \markup{\caps{Lord,}} for we have sinned
     Be mer -- ci -- ful, for we have sinned.
