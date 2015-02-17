@@ -89,6 +89,10 @@ voiceInstr = "acoustic grand"
             >>
         >>
     >>
-    \layout { }
+    \layout {
+        \context {\Staff
+            \RemoveEmptyStaves
+        }
+    }
     \midi { }
 }
