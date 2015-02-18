@@ -1,12 +1,23 @@
 soprano = \relative c' {
     d4
-    a'8 b a4 f          |%1
-    g4. g8 a8 b         |%2
-    a4. r8 a4           |%3
-    d8 c b4 a           |%4
-    g4. g8 e4 c         |%5
-    d2.~                |%6
-    d2 r4               |%7
+    a'8 b a4 f      |%1
+    g4. g8 a8 b     |%2
+    a4. r8 a4       |%3
+    d8 c b4 a       |%4
+    g4. g8 e4 c     |%5
+    d2.~            |%6
+    d2 s4           |%7
+    s2.*10          |%8-17
+    s2.             |%18
+    \repeat unfold 4 {s2. s1}   |%19-22
+    s2.             |%23
+    s2. s1          |%24
+    s1              |%25
+    s1 s4           |%26
+    \repeat unfold 2 {s2. s1}   |%27-28
+    s2.             |%29
+    s1*6            |%30-34
+    s2.*3           |%36-37
 } \addlyrics {
     \repeat unfold 2 {
         Be mer -- ci -- ful, o \markup{\caps{Lord,}} for we have sinned

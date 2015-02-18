@@ -1,12 +1,23 @@
 alto = \relative c' {
     d4
-    d8 d d4 f           |%1
-    e4. e8 e e          |%2
-    e4. r8 e4           |%3
-    d4 e f              |%4
-    g4 a2 a4            |%5
-    a2.~                |%6
-    a2 r4               |%7
+    d8 d d4 f       |%1
+    e4. e8 e e      |%2
+    e4. r8 e4       |%3
+    d4 e f          |%4
+    g4 a2 a4        |%5
+    a2.~            |%6
+    a2 s4           |%7
+    s2.*10          |%8-17
+    s2.             |%18
+    \repeat unfold 4 {s2. s1}   |%19-22
+    s2.             |%23
+    s2. s1          |%24
+    s1              |%25
+    s1 s4           |%26
+    \repeat unfold 2 {s2. s1}   |%27-28
+    s2.             |%29
+    s1*6            |%30-34
+    s2.*3           |%36-37
 } \addlyrics {
     Be mer -- ci -- ful, o \markup{\caps{Lord,}} for we have sinned
     Be mer -- ci -- ful, for we have sinned.

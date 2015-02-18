@@ -6,7 +6,18 @@ bass = \relative c {
     a4. a8 b c      |%4
     d4 e e2         |%5
     d2.~            |%6
-    d2 r4           |%7
+    d2 s4           |%7
+    s2.*10          |%8-17
+    s2.             |%18
+    \repeat unfold 4 {s2. s1}   |%19-22
+    s2.             |%23
+    s2. s1          |%24
+    s1              |%25
+    s1 s4           |%26
+    \repeat unfold 2 {s2. s1}   |%27-28
+    s2.             |%29
+    s1*6            |%30-34
+    s2.*3           |%36-37
 } \addlyrics {
     Be mer -- ci -- ful, o \markup{\caps{Lord,}} for we have sinned
     Be mer -- ci -- ful, o \markup{\caps{Lord,}} we have sinned
