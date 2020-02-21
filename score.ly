@@ -11,9 +11,9 @@
 \include "tenor.lyi"
 \include "bass.lyi"
 
-\include "cello.lyi"
+\include "piano.lyi"
 
-voiceInstr = "acoustic grand"
+voiceInstr = "choir aahs"
 
 \paper {
     ragged-last-bottom=##f
@@ -24,7 +24,6 @@ voiceInstr = "acoustic grand"
 
         \new Staff = Cantor <<
             \set Staff.instrumentName = "Cantor"
-            \set Staff.shortInstrumentName = "C"
             \set Staff.midiInstrument = \voiceInstr
             \template
             \new Voice <<
@@ -75,19 +74,24 @@ voiceInstr = "acoustic grand"
                 >>
             >>
         >>
-
-        \new StaffGroup = Strings <<
-            \new Staff = Cello <<
-                \set Staff.instrumentName = "Violoncello"
-                \set Staff.shortInstrumentName = "Vc"
-                \set Staff.midiInstrument = "cello"
-                \clef bass
-                \template
-                \new Voice <<
-                    \cello
-                >>
+        
+       \new PianoStaff = Piano <<
+            \set PianoStaff.instrumentName = "Piano"
+            \set PianoStaff.midiInstrument = "acoustic grand"
+            \new Staff = Upper <<
+              \template
+              \new Voice <<
+                \pianorh
+              >>
             >>
-        >>
+            \new Staff = Lower <<
+              \template
+              \new Voice <<
+                \pianolh
+              >>
+            >>
+       >>
+
     >>
     \layout {
         \context {\Staff
